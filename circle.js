@@ -9,9 +9,7 @@ canvas.width = windowX;
 canvas.height = windowY;
 
 const balls = [];
-function random() {
-  return array[Math.floor(Math.random() * array.length)];
-}
+
 function createCircle() {
   this.color = "#" + Math.floor(Math.random() * 0xffffff).toString(16);
   this.alpha = Math.random() + 0.1;
